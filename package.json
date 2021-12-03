@@ -17,7 +17,7 @@
     "tsc:sync": "npx typesync",
     "tsc": "tsc",
     "validate": "yarn lint && yarn test:typescript && yarn test:flow && yarn test && yarn monolinter",
-    "install": "npm run build"
+    "install": "npm install && npm run build"
   },
   "repository": {
     "type": "git",
